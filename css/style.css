@@ -1,0 +1,196 @@
+body {
+  font-family: 'Lobster', cursive;
+  /* background-image: url(../images/rough-horn-2146181_1280.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.menu_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.menu_link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+.txt_gallery {
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 25px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.img_wrp {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.img_gallery {
+  width: 350px;
+  height: 300px;
+  transition: transform 1s;
+}
+.pers {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+}
+.pers:hover {
+  -webkit-transform: perspective(300px) rotateX(-10deg);
+  -ms-transform: perspective(300px) rotateX(-10deg) rotateY(-10deg);
+  width: 350px;
+}
+.pers1 {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+}
+.pers1:hover {
+  -webkit-transform: perspective(300px) rotateX(10deg);
+  -ms-transform: perspective(300px) rotateX(10deg);
+  width: 350px;
+}
+.perspective {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+}
+.perspective:hover {
+  -webkit-transform: perspective(300px) rotateY(10deg);
+  -ms-transform: perspective(300px) rotateY(10deg);
+  width: 350px;
+}
+.perspective1 {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+}
+.perspective1:hover {
+  -webkit-transform: perspective(300px) rotateY(-10deg);
+  -ms-transform: perspective(300px) rotateY(-10deg);
+  width: 350px;
+}
+.perspective2 {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+}
+.perspective2:hover {
+  -webkit-transform: perspective(300px) rotateY(10deg);
+  -ms-transform: perspective(300px) rotateY(10deg);
+  width: 350px;
+}
+.perspective3 {
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+}
+.perspective3:hover {
+  -webkit-transform: perspective(300px) rotateY(-10deg);
+  -ms-transform: perspective(300px) rotateY(-10deg);
+  width: 350px;
+}
+.img_box {
+  width: 350px;
+}
+.img_box_txt {
+    margin-left: 15px;
+    font-size: 21px;
+    color: black;
+    display: block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.img_btn {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.2px;
+  display: block;
+}
+.img_btn_link {
+  border: 1px solid antiquewhite;
+  padding: 2px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  color: grey;
+  margin: 0 auto 15px;
+  width: 70px;
+  background-color: transparent;
+  transition: background-color 600ms ease-out,
+              color 600ms ease-out,
+              font-weight 600ms ease-out,
+              letter-spacing 600ms ease-out;
+}
+.img_btn_link:hover {
+  color: black;
+  letter-spacing: 1.8px;
+  background-color: antiquewhite;
+}
+.img_btn_link:active {
+  color: grey;
+  font-weight: normal;
+  letter-spacing: 1.2px;
+  background-color: transparent;
+}
+.skew {
+  transform: skew(-30deg, 0);
+}
+.skew1 {
+  transform: skew(30deg, 0);
+}
+.skew2 {
+  transform: skew(30deg, 0);
+}
+.skew3 {
+  transform: skew(-30deg, 0);
+}
+.nepal_title {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.nepal_img {
+  display: block;
+  width: 900px;
+  height: 450px;
+  margin: 0 55px;
+}
+.nepal_txt {
+  color: black;
+  width: 900px;
+  font-size: 18px;
+  margin: 25px auto 0;
+  padding-bottom: 25px;
+}
+.nepal_link {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  transform: rotate(-45deg);
+  transition: border-color 600ms ease-out;
+}
+.nepal_link:hover {
+  border-color: antiquewhite;
+}
+.right {
+  transform: rotate(135deg);
+}
+.nepal_img_wrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
