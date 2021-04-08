@@ -30,7 +30,7 @@ body {
 .txt_gallery {
   text-align: center;
   display: block;
-  color: black;
+  color: blue;
   font-size: 25px;
   margin-top: 35px;
   margin-bottom: 35px;
@@ -113,8 +113,12 @@ body {
 .img_btn {
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 1.2px;
+  /* letter-spacing: 1.2px; */
   display: block;
+  transition: letter-spacing 600ms ease-out;
+}
+.img_btn:hover {
+  letter-spacing: 1.8px;
 }
 .img_btn_link {
   border: 1px solid antiquewhite;
@@ -127,13 +131,10 @@ body {
   width: 70px;
   background-color: transparent;
   transition: background-color 600ms ease-out,
-              color 600ms ease-out,
-              font-weight 600ms ease-out,
-              letter-spacing 600ms ease-out;
+              color 600ms ease-out;
 }
 .img_btn_link:hover {
   color: black;
-  letter-spacing: 1.8px;
   background-color: antiquewhite;
 }
 .img_btn_link:active {
@@ -193,4 +194,87 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.go_home {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: grey;
+  margin: 0 auto;
+  border: 1px solid antiquewhite;
+  padding: 0 15px;
+  box-sizing: border-box;
+  display: block;
+  width: 150px;
+  text-align: center;
+  transition: color 600ms ease-out,
+              background-color 600ms ease-out,
+              letter-spacing 600ms ease-out;
+}
+.go_home:hover {
+  color: black;
+  letter-spacing: 1.8px;
+  background-color: antiquewhite;
+}
+.go_home:active {
+  color: grey;
+  background-color: transparent;
+}
+.button_go_home {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 15px;
+}
+.sec_txt_block {
+ 
+}
+.sec_txt_title {
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  margin-bottom: 25px;
+  color: blue;
+}
+.sec_txt_text {
+  margin: 0 15px 15px 25px;
+  font-size: 22px;
+  text-indent: 30px;
+}
+.zapros_txt {
+  display: block;
+  color: blue;
+  font-size: 22px;
+  text-align: center;
+}
+.zapros_form {
+  width: 50%;
+  margin: 25px 0 0 25px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+fieldset {
+  width: 90%;
+  border: none;
+  margin: 0 auto;
+  border-top: 1px solid #ccc;
+}
+legend {
+  text-align: center;
+}
+.input_text {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 300px;
+}
+.text_area {
+  border-radius: 5px;
+  border-color: #ccc;
+  padding: 5px;
+  outline: none;
+  width: 100%;
+  resize: none;
+  display: block;
+  box-sizing: border-box;
 }
